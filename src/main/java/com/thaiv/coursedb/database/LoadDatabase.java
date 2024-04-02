@@ -17,7 +17,12 @@ class LoadDatabase {
   CommandLineRunner initDatabase(CourseRepository repository) {
 
     return args -> {
-      log.info("Data is loaded: " + repository.findById("AM10"));
+      if(repository.findById("AM10").isPresent()){
+        log.info("Data is loaded properly.");
+      } else {
+        log.info("Data is not loaded properly. Exiting.");
+        System.exit(1);
+      }
     };
   }
 }
