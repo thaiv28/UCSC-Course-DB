@@ -1,7 +1,7 @@
 CREATE TABLE course (
     code VARCHAR(255) PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    subject VARCHAR(255) NOT NULL,
+    name VARCHAR(255),
+    subject VARCHAR(255),
     num VARCHAR(63),
     credits INT,
     prof VARCHAR(255),
@@ -9,5 +9,5 @@ CREATE TABLE course (
     repeat VARCHAR(255),
     quarters VARCHAR(255),
     preqs VARCHAR(255),
-    preqstr VARCHAR(255)
+    preqstr VARCHAR(1023)
 );
