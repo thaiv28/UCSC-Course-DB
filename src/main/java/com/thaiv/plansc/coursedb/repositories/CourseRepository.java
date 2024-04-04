@@ -1,9 +1,9 @@
-package com.thaiv.coursedb.repositories;
+package com.thaiv.plansc.coursedb.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.thaiv.coursedb.models.Course;
+import com.thaiv.plansc.coursedb.models.Course;
 
 @Repository
 public interface CourseRepository extends JpaRepository<Course, String> {

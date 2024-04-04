@@ -1,4 +1,4 @@
-package com.thaiv.coursedb.models;
+package com.thaiv.plansc.coursedb.models;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

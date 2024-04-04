@@ -1,4 +1,4 @@
-package com.thaiv.coursedb;
+package com.thaiv.plansc.coursedb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

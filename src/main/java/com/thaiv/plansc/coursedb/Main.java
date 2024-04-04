@@ -1,4 +1,4 @@
-package com.thaiv.coursedb;
+package com.thaiv.plansc.coursedb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

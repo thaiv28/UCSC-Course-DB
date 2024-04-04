@@ -1,13 +1,12 @@
-package com.thaiv.coursedb.database;
+package com.thaiv.plansc.coursedb.database;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.thaiv.coursedb.repositories.CourseRepository;
+import com.thaiv.plansc.coursedb.repositories.CourseRepository;
 
 @Configuration
 class LoadDatabase {
