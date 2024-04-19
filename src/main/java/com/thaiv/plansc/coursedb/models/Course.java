@@ -64,6 +64,10 @@ public class Course {
         return this.code;
     }
 
+    public void setCode(String code) {
+        this.code = code;
+    }
+
     public String getName() {
         return this.name;
     }
@@ -104,6 +108,10 @@ public class Course {
         return this.preqstr;
     }
 
+    public void setPreqstr(String preqstr){
+        this.preqstr = preqstr;
+    }
+
     
     @Override
     public int hashCode() {
@@ -136,55 +144,7 @@ public class Course {
             if (other.code != null)
                 return false;
         } else if (!code.equals(other.code))
-            return false;
-        if (name == null) {
-            if (other.name != null)
-                return false;
-        } else if (!name.equals(other.name))
-            return false;
-        if (subject == null) {
-            if (other.subject != null)
-                return false;
-        } else if (!subject.equals(other.subject))
-            return false;
-        if (num == null) {
-            if (other.num != null)
-                return false;
-        } else if (!num.equals(other.num))
-            return false;
-        if (credits != other.credits)
-            return false;
-        if (prof == null) {
-            if (other.prof != null)
-                return false;
-        } else if (!prof.equals(other.prof))
-            return false;
-        if (genEd == null) {
-            if (other.genEd != null)
-                return false;
-        } else if (!genEd.equals(other.genEd))
-            return false;
-        if (repeat == null) {
-            if (other.repeat != null)
-                return false;
-        } else if (!repeat.equals(other.repeat))
-            return false;
-        if (quarters == null) {
-            if (other.quarters != null)
-                return false;
-        } else if (!quarters.equals(other.quarters))
-            return false;
-        if (preqs == null) {
-            if (other.preqs != null)
-                return false;
-        } else if (!preqs.equals(other.preqs))
-            return false;
-        if (preqstr == null) {
-            if (other.preqstr != null)
-                return false;
-        } else if (!preqstr.equals(other.preqstr))
-            return false;
-        return true;
+            return true;
+        return false;
     }
-
 }
